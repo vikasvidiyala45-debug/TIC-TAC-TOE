@@ -6,8 +6,6 @@ public class TicTacToe {
         initializeBoard();
         printBoard();
     }
-
-    // Initialize the board with '-'
     static void initializeBoard() {
         for (int row = 0; row < 3; row++) {
             for (int col = 0; col < 3; col++) {
@@ -16,7 +14,6 @@ public class TicTacToe {
         }
     }
 
-    // Print the board in grid format
     static void printBoard() {
         System.out.println("-------------");
         for (int row = 0; row < 3; row++) {
@@ -29,3 +26,5 @@ public class TicTacToe {
         }
     }
 }
+
+
