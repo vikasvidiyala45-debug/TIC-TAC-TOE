@@ -7,6 +7,7 @@ public class TicTacToe {
     static char computerSymbol;
 
     public static void main(String[] args) {
+        
         tossAndAssignSymbols();
         displayTossResult();
     }
